@@ -13,6 +13,7 @@ CREATE TABLE candidate (
 	candidate_address VARCHAR(100),
 	postcode VARCHAR(10),
 	phone VARCHAR(30),
+	university VARCHAR(150),
 	degree VARCHAR(10),
 	invite_date DATE, -- in original combine the date columns (invited_date and months) 
 	invited_by VARCHAR(30),
